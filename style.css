@@ -126,3 +126,16 @@ body {
   border-radius: 6px;
   cursor: pointer;
 }
+.left-buttons {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 10;
+}
+.left-buttons.glow-btn {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}

@@ -8,3 +8,8 @@ function toggleMore(button) {
     button.textContent = "Read More";
 }
 }
+
+function toggleTools() {
+  const section = document.getElementById("tools-section");
+  section.style.display = section.style.display === "none"? "block": "none";
+}
